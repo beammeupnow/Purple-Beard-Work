@@ -4,25 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>This is a Form</title>
+    
+        <style>
+        body {
+          background-color: rgb(102, 165, 89);
+        }
+        
+        h1 {
+          color: black;
+          text-align: center;
+          font-family: verdana;
+  font-size: 30px;
+        }
+        
+        p {
+          font-family: verdana;
+          font-size: 20px;
+          
+        }
+        </style>
+        
+        </head>
+        
 <body>
     <h1>This is a form!</h1>
 <p>
     This is a form, it's pretty basic and ugly, but it's a form.<br>
-    I'd like to make it prittier, but haven't been taught that yet.
+    I'd like to make it prettier, but haven't been taught that yet.
 </p>
+
+    
  <form action="../../form-result.php" target="_blank">
-      <p>Your name: <input type="text" name="fullname"></p>
-      <p>Your e-mail address: <input type="text" name="email"></p>
+      <p>Your name: <input type="text" name="fullname" placeholder="Richard Cheese"></p>
+      <p>Your e-mail address: <input type="text" name="email" placeholder="example@mail.com"></p>
       <p>
         Your message:<br>
-        <textarea name="message"></textarea>
+        <textarea name="message"placeholder="Here you can write whatever message you want!"></textarea>
       </p>
       <p>
         <input type="submit" value="Send message">
         <input type="reset" value="Start over">
       </p>
     </form>
+
 </body>
 </html>
