@@ -1,0 +1,20 @@
+h2 {font-family: Verdana,sans-serif;text-align: center;background-color: #ef8354;}
+body {background-color: black;font-family: Verdana, Geneva, Tahoma, sans-serif;color: white;;}
+h1 {font-size: 100px;font-weight: bold;background-image:url(./Records.jpg);background-size:cover;text-align: center;}
+
+img {
+
+    width: 500px;
+  
+  }
+#selling {background-color: #0e7c7b}
+#livemusic {background-color: #9c538b;}
+
+/* unvisited link */
+a:link {color: #ef8354;}
+ 
+  
+  /* mouse over link */
+  a:hover {color: #9c528b;}
+  
+span {font-weight: bold;}
