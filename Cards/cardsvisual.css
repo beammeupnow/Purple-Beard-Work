@@ -1,0 +1,28 @@
+.card {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;border-radius: 20px 20px 20px 20px;height: 500px;width: 500px;}
+
+  
+  .card:hover {
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 5px;
+  }
+ 
+  body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+  img {
+    border-radius: 20px 20px 0px 0px;}
+    
+  p {font-size: 16;}
+
+  h4 {font-size: 30px;}
+
+  .card {display: inline-block
+
+}
+.card img {width: 100%;height: 250px;object-fit: cover;}
+
+.card--content {padding:15px 14px 0 0}
