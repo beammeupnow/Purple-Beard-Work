@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Purple Beard Work",
+			"path": ".."
+		},
+		{
+			"name": "img",
+			"path": "../../Downloads/Violet's Vinyl/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Purple Beard Work"
+	}
+}
