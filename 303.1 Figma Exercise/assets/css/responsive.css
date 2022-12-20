@@ -1,0 +1,29 @@
+@media (max-width: 1220px) {
+  section.card--container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  header #logo {
+    margin: 0 auto;
+  }
+
+  main h1 {
+    text-align: center;
+  }
+
+  article.card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  section.card--container {
+    padding: 0 1vw
+  }
+  
+  article.card {
+    width: 300px;
+  }
+}
